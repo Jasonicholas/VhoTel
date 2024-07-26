@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VhoTel-Booking Page</title>
+    <link rel="stylesheet" href="vhotel.css">
+</head>
+<body>
+    
+    <div id="header-navbar">
+        <img src="aset/Logo VhoTel.png" alt="vhotel" onclick="window.location.href='vhotelHome.html';"   >
+        <a href="vhotelHome.html" class="unpushed">Home</a>
+        <a href="vhotelAboutUs.html" class="unpushed">About Us</a>
+        <a href="Rooms.html" class="pushed">Our Rooms</a>
+    </div>  
+
+    <div id="bookingContent">
+        <div id="bookingimg">
+        
+            <h1>Room Booking</h1>
+            <h4>You will book this room</h4>
+            <div id="bookpreview">
+              <div id="shape"></div>  
+              <img src="aset/hotelroom1.jpg" alt="" id="bookpreviewimg">
+
+                <h1>Standard Room | King</h1>
+
+                <div id="bookingspec">
+                    <div class="roomspec">
+                        <table>
+                          <tr>
+                            <td><img src="aset/icon orang.png" alt="" class="icon"></td>
+                            <td rowspan="2"> 3 persons</td>
+                          </tr>
+                          <tr>
+                            <td>capacity</td>
+                            <td rowspan="2"></td>
+                          </tr>
+                        </table>
+                        <table>
+                          <tr>
+                            <td><img src="aset/bed.png" alt="" class="icon"></td>
+                            <td rowspan="2"> King Size</td>
+                          </tr>
+                          <tr>
+                            <td>Bed Size</td>
+                            <td rowspan="2"></td>
+                          </tr>
+                        </table> 
+                    </div>
+    
+                    <div class="roomspec" >
+                        <table>
+                            <tr>
+                              <td><img src="aset/area logo.png" alt="" class="icon"></td>
+                              <td rowspan="2"> 45 m <sup>2</sup></td>
+                            </tr>
+                            <tr>
+                              <td>Room Area</td>
+                              <td rowspan="2"></td>
+                            </tr>
+                          </table> 
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+
+        <div id="bookingform">
+          <form action="" autocomplete="off">
+            <table>
+              <tr>
+                <td><label for="nama">Name</label></td>
+                <td><p id="error-name" class="error-message"></p></td>
+              </tr>
+              <tr>
+                <td colspan="2"><input type="text" id="nama" class="input1" autofocus required></td>
+              </tr>
+              <tr>
+                <td><label for="email">E-mail</label></td>
+                <td><p id="error-email" class="error-message"></p></td>
+              </tr>
+              <tr>
+                <td colspan="2"><input type="email" id="email" class="input1"></td>
+              </tr>
+              <tr>
+                <td><label for="telepon">Phone Number</label></td>
+                <td><p id="error-phone" class="error-message"></p></td>
+              </tr>
+              <tr>
+                <td colspan="2"><input type="tel" id="telepon" class="input1"></td>
+              </tr>
+              <tr>
+                <td><label for="Check-in">Check-in</label></td>
+                <td><label for="Check-out">Check-out</label></td>
+              </tr>
+              <tr>
+                <td><input type="date" id="check-in" class="input2"></td>
+                <td><input type="date" id="check-out" class="input2"></td>
+              </tr>
+              <tr>
+                <td colspan="2"><p id="error-date" class="error-message"></p></td>
+              </tr>
+              <tr>
+                <td><label for="">Payment Method</label></td>
+                <td> <p id="error-payment" class="error-message"></p></td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <select name="payment" id="payment" class="input1">
+                    <option value="">Select payment method...</option>
+                    <option value="Dcard">Debit Card</option>
+                    <option value="Ccard">Credit Card</option>
+                    <option value="VP">VhoTelPay</option>
+                  </select>
+                </td>
+              </tr>
+              <tr id="btn">
+                <td colspan="2" ><input id="bookbutton" type="button" value="Book Now" onclick="validate()"></td>
+              </tr>
+            </table>
+          </form>
+        </div>
+    </div>
+    
+    <div id="footer">
+      <img src="aset/Logo VhoTel.png" alt="VhoTel" id="flogo">
+      <div id="fcontent">
+          <div id="contactus" class="felement">
+              <h2>Contact us</h2>
+              <table id="cu-table">
+              <tr><td>Telephone: 021 111 111</td></tr> 
+              <tr><td>WhatsApp: +62 1111 1111</td></tr>
+              <tr><td>E-mail: vhotel.hotel@gmail.com</td></tr>
+              </table>
+          </div> 
+      
+          <div id="adress" class="felement">
+              <h2>Address</h2>
+              <p>Jl. Kebon Jeruk Raya No. 27, <br> Kebon Jeruk Jakarta Barat <br> 11530, Indonesia</p>
+          </div>
+          
+          <div id="follus" class="felement">
+              <h2>Follow Us</h2>
+              <table>
+                  <tr>
+                      <td><img src="aset/facebook.png" alt="" ></td>
+                      <td>VhoTel Hotel</td>
+                  </tr>
+                   <tr>
+                       <td><img src="aset/twitter.png" alt=""></td>
+                      <td>@VhoTel.Hotel</td>
+                  </tr>
+                  <tr>
+                      <td><img src="aset/instagram.png" alt=""></td>
+                      <td>@VhoTel.Hotel</td>
+                  </tr>
+               </table>
+           </div>
+      </div>
+  </div>
+    <script src="vhotel.js"></script>
+    
+</body>
+</html>

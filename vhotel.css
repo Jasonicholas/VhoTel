@@ -1,0 +1,599 @@
+
+body{
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+
+}
+
+#header-navbar{
+    background-color: #ffff;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.25);
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    stroke:black;
+
+}
+#header-navbar a{
+    margin-left: 30px;
+    margin-right: 30px ;
+}
+
+.unpushed{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    width: 139px;
+    height: 53px;
+}
+
+#header-navbar img{
+    max-width: 9%;
+    height: auto;
+    margin-right: 40px;
+}
+
+.pushed{
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.35);
+    width: 139px;
+    height: 53px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    box-shadow: inset 4px 4px 2px rgba(0,0,0, 0.4);
+    text-decoration: none;
+    background-color: #FFD700;
+    color: #ffffff;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0,35);
+    border-radius: 15px ;
+
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.unpushed:hover{
+    background-color: #EDEDED;
+    box-shadow: inset 5px 5px 5px rgba(0,0,0, 0.25);
+    border-radius: 15px 15px 15px 15px;
+    transition: 400ms ease-in-out;
+}
+
+#build {
+    max-width: 930px;
+    height: auto;
+}
+
+#loby {
+    border-radius:  30px 0px 0px 30px;
+    position: relative;
+    max-width: 900px;
+    height: auto;
+    bottom: 550px;
+    left: 33.2%;
+}
+
+#questions h1{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    width: 365px;
+    height: 60px;
+} 
+#questions h2{
+    margin: 0px;
+    width: 365px;
+ 
+}
+
+#questions{
+    background-color: #EDEDED;
+    border-radius:  30px 0px 0px 30px;
+    box-shadow: inset 5px 5px 9px rgba(0,0,0, 0.25);
+    position: relative;
+    max-width: fit-content;
+    max-height: fit-content;
+    text-align: center;
+    bottom: 610px   ;
+    left: 75%;
+}
+
+#plogo{
+    max-width: 10%;
+    height: auto;
+    position: absolute;
+    left :45%;
+    top:160%
+}
+
+#ptext {
+    position: absolute;
+    top: 175%;
+    text-align: center;
+    left:23%;
+}
+
+
+#footer{
+    background: linear-gradient(to bottom, #FFD700, #FFED8E);
+    bottom: 0px;
+    height: 300px;
+    
+}
+#fcontent{
+    display: flex;
+    justify-content: center; 
+    
+}
+
+#flogo{
+    position: relative;
+    left: 45%;
+    max-width: 10%;
+    height: auto;
+}
+
+
+#follus img{
+    height: 40px;
+    width: 40px ;
+}
+
+.felement{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#facilities-box h1{
+    display: flex;
+    justify-content: center;
+}
+
+#room-facilities{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+
+.roomname {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: -270px;
+}
+
+.previewbox #roomimg{
+    width: 340px;
+    height: auto;
+}   
+
+.previewbox #shape{
+    width: 340px;
+    height: 228px;
+    position: relative;
+    top: -230px;    
+    background: linear-gradient(to bottom, #05040000, #EDEDED);
+    
+
+}
+.previewbox {
+    width: 340px;
+    height: 455px;
+    background-color: #EDEDED;
+    box-shadow: 5px 5px 9px rgba(0,0,0, 0.25);
+    border-radius: 15px 15px 15px 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.roomspec .icon{
+    width: 30%;
+    height: 30%;
+}
+
+.roomspec {
+    position: relative;
+    top: -260px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.roomspec table tr td{
+    text-align: center;
+    width: fit-content;
+    font-family: 'Times New Roman', Times, serif;
+    height: fit-content;
+}
+.previewbox p{
+    position: relative;
+    top: -240px;
+    justify-content: space-around;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+#facilities{
+    text-align: center;
+    align-items: center;    
+    align-content: center;
+    vertical-align: middle;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+   
+}
+
+
+#facilities td{
+    padding-bottom: 10px;
+    font-size: 22px;
+    text-align: center;
+}
+
+#explorebutton{
+    background-color: #EDEDED;
+    box-shadow:5px 5px 9px rgba(0,0,0, 0.25);
+    border-radius: 15px 15px 15px 15px;
+    height: 150px;
+    width: 75px;
+    margin-left: 50px;
+    display: grid;
+    align-content:center ;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+}
+
+
+/* about us attribute */
+
+#gambar img{
+    height: 450px;
+    width:auto
+}
+
+
+#gambar{
+    height: fit-content;
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+#logoaboutus {
+    position: relative;
+    left: 46%;
+    max-width: 10%;
+    height: auto; 
+}
+
+#AUparagraph{
+    position: relative;
+    left:20%;
+    top: 110%;
+    width: 60%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#explorebtn{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#AUexplore{
+    box-shadow:5px 5px 9px rgba(0,0,0, 0.25);
+    border-radius: 15px 15px 15px 15px;
+    text-decoration: none ;
+    background-color: #EDEDED;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif ;
+    color: #000000;
+    font-size: 16px;
+}
+#AUexplore img{
+    margin-left: 20px;
+}
+/* room list page */
+
+#roomlist{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin:80px;
+
+    justify-content: center;
+    align-items: center;
+    grid-gap: 30px;
+    row-gap: 1em ;
+    align-content: center;
+ 
+}
+
+
+.roombox{
+    height: 270px;
+    width: 640px;
+    overflow: hidden;
+    background-color: #EDEDED;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 5px 5px 9px rgba(0,0,0, 0.25);
+    border-radius: 15px;
+    display: flex;
+}
+.roombox .shape{
+    background: linear-gradient(to right, #05040000, #EDEDED);
+    height: 270px;
+    width: 352px;
+    position: absolute;
+    border-radius: 15px 0px 0px 15px;
+} 
+.roombox:hover {
+    transition: 400ms ease-in-out;
+    box-shadow: inset -7px -7px 14px rgba(0,0,0, 0.25);
+
+}
+
+.roombox:hover .shape{
+    box-shadow: inset 10px -7px 14px 0px rgba(0,0,0,0.25);
+    transition: 400ms ease-in-out;
+}
+.roomimg{
+    width: 55%;
+    height: 270px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+@media (max-width: 1300px){
+    #grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+.roomspec2 .icon{
+    width: 30px;
+    height: 30px;
+}
+
+
+/* room facilities page */
+
+#roomdetailsimg img{
+    width: 50%;
+    height: auto;
+}
+#roomdetailsimg{
+    width: fit-content;
+    height: fit-content;
+    display: contents;
+}
+#roomdetails{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+
+}
+#roomdetailstxt{
+    margin-left: 15%;;
+
+}
+.iconRF{
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+#roomdetailsparagraph{
+    margin-left: 5%;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+#roomdetailstxt td.harga{
+    
+    text-align: left;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+#roomdetailstxt table, tr, td.satuan{
+    text-align: left;
+  
+}
+#roomdetailstxt table{
+    text-align: center;
+}
+
+#adress { 
+    text-align: center;
+    align-items: center;
+}
+#follus{
+    text-align: end;
+}
+#follus td{
+    text-align: end;
+}
+
+#bookbutton{
+    width: 130px;
+    height: 60px;
+    background-color: #FFD700;
+    box-shadow: 4px 4px 4px 1px rgba(0,0,0, 0.25);
+    text-align: center;
+    border-radius: 15px;
+}
+#bookbutton a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* booking page */
+
+#bookingimg{
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+#bookingimg #shape{
+    overflow: hidden;
+    width: 330px;
+    height: 220px;
+    position: absolute;   
+    background: linear-gradient(to bottom, #05040000, #EDEDED);
+}
+
+#bookingContent {
+    display: flex;
+    justify-content:flex-start ;
+    align-items: center;
+    
+    
+}
+
+#bookpreview{
+    width: 330px;
+    height: 460px;
+    background-color: #EDEDED;
+    box-shadow:  5px 5px 9px rgba(0,0,0, 0.25);
+    border-radius: 15px 15px 15px 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+#bookpreviewimg{
+    width: 330px;
+    height: auto;
+
+}
+
+
+#bookingspec{
+    position: relative;
+    top: 60%;
+}
+
+#bookingform{
+    margin-left: 10%;
+}
+
+
+#bookingform .input1{
+    background-color: #EDEDED;
+    width: 600px ;
+    height:30px;
+    border-radius: 1ex;
+    border: none;
+    box-shadow:  5px 5px 9px rgba(0,0,0, 0.25);
+}
+#bookingform .input2{
+    background-color:#EDEDED ;
+    border-radius: 1ex;
+    width: 295px;
+    height: 30px;
+    border: none;
+    box-shadow:  5px 5px 9px rgba(0,0,0, 0.25);
+}
+.error-message{
+    color: red;
+}
+#bookingform #btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#bookbtn{
+    background-color: #FFD700;
+    color: #000000;
+    height: 50px;
+    width: 180px;
+}
+#bookbutton{
+    margin-top: 50px;
+    border: none;
+    height: 50px;
+    width: 180px;
+    border-radius: 10px; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+}
+
+
+/* thankyou page */
+
+#tycontent{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#tycontent h1, #typaragraph{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#tohome{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #FFD700;
+    width: 160px;
+    height: 50px;
+    text-decoration: none;
+    color: #000000;
+    margin-bottom: 50px;
+    position: relative;
+    left: 45%;
+    border-radius: 10px;
+    box-shadow:  5px 5px 9px rgba(0,0,0, 0.25);
+
+}
